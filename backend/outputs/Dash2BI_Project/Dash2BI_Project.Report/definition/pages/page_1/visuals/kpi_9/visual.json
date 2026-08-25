@@ -1,0 +1,46 @@
+{
+  "name": "kpi_9",
+  "position": {
+    "x": 640.0,
+    "y": 0,
+    "width": 308.0,
+    "height": 168
+  },
+  "visual": {
+    "visualType": "card",
+    "title": "DEATHS",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Sheet1"
+                  }
+                },
+                "Property": "DEATHS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'DEATHS'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

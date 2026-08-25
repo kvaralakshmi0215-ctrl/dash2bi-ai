@@ -1,0 +1,46 @@
+{
+  "name": "filter_1",
+  "position": {
+    "x": 960.0,
+    "y": 0,
+    "width": 308.0,
+    "height": 168
+  },
+  "visual": {
+    "visualType": "slicer",
+    "title": "STATE / UNION TERRITORY",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Sheet1"
+                  }
+                },
+                "Property": "State/UnionTerritory"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'STATE / UNION TERRITORY'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
